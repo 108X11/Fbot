@@ -472,71 +472,71 @@ class ChatBot(Client):
                     sendQuery()
                 except:
                     pass
-            elif ("busy" in msg):
-                reply = "Nobody is busy. Only things are prioritized."
+            elif ("Pogi ba ako" in msg):
+                reply = "HAHAHAHA hindi"
                 sendMsg()
-            elif("help" in msg):
-                reply = "Sure! What should I do?"
+            elif("$help" in msg):
+                reply = "No commands available right now😅"
                 sendMsg()
-            elif("clever" in msg):
-                reply = "Yes, i am clever. hope you will be clever soon."
+            elif("Sino ka" in msg):
+                reply = "Boss mo"
                 sendMsg()
-            elif("crazy" in msg):
-                reply = "Anything wrong about that."
+            elif("Mahal mo ba ako" in msg):
+                reply = "Oo hatdog ka ba."
                 sendMsg()
-            elif ("are u a robot" in msg):
-                reply = "No"
+            elif ("Pwede kaba maging jowa" in msg):
+                reply = "Pwede kung gusto mo"
                 sendMsg()
-            elif ("marry me" in msg):
-                reply = "Pass wala kapang ligo"
+            elif ("Pahingi ng jowa" in msg):
+                reply = "Hanap ka sa google"
                 sendMsg()
-            elif ("where you from" in msg):
-                reply = "Philippines"
+            elif ("Taga saan ka" in msg):
+                reply = "Sa isip mo"
                 sendMsg()
-            elif ("you sure" in msg):
-                reply = "Yes. I'm sure."
+            elif ("Source Code" in msg):
+                reply = "Here's my Source code on github -> https://github.com/LughDe033/chatbotchaz"
                 sendMsg()
-            elif ("great" in msg):
-                reply = "Thanks!"
+            elif ("sino gumawa sayo" in msg):
+                reply = "Me, myself and I"
                 sendMsg()
-            elif ("no problem" in msg):
-                reply = "Okay😊🙂"
+            elif ("kumain ka naba" in msg):
+                reply = "Di pa wala ulam eh"
                 sendMsg()
-            elif ("thank you" in msg):
-                reply = "You're welcome😊🙂"
+            elif ("Lalake ka o babae" in msg):
+                reply = "Babae po😅"
                 sendMsg()
-            elif ("thanks" in msg):
-                reply = "You're welcome🙂"
+            elif ("paano mag mura" in msg):
+                reply = "Potanginamo with a heart💚"
                 sendMsg()
-            elif ("well done" in msg):
-                reply = "Thanks🙂"
+            elif ("Kamusta?" in msg):
+                reply = "Okay naman ako ikaw okay kaba?"
                 sendMsg()
-            elif ("wow" in msg):
-                reply = "🙂😊"
+            elif ("sino ka" in msg):
+                reply = "Ako to si Natoy na mahal na mahal ka😐"
                 sendMsg()
-            elif ("wow" in msg):
-                reply = "🙂😊"
+            elif ("cute ba ako" in msg):
+                reply = "Hindi"
                 sendMsg()
-            elif ("bye" in msg):
-                reply = "bye👋"
+            elif ("I love you" in msg):
+                reply = "I love you too💚"
                 sendMsg()
-            elif ("good morning" in msg):
+            elif ("Good Morning" in msg):
                 reply = "Good Morning🌅🌺"
                 sendMsg()
-            elif ("goodnight" in msg):
+            elif ("Good Night" in msg):
                 reply = "good night🌃🌙"
                 sendMsg()
             elif ("good night" in msg or msg == "gn"):
-                reply = "good night bakla"
+                reply = "good night🌃🌙"
                 sendMsg()
-            elif ("hello" in msg):
-                reply = "Hi"
+            elif ("Taga saan gumawa sayo?" in msg):
+                reply = "Andito sa pinaka core ng puso ko"
                 sendMsg()
-            elif ("hello" in msg or "hlo" in msg):
-                reply = "Hi"
+            elif ("Hello" in msg or "hello" in msg):
+                reply = "hi kamusta ka💚"
                 sendMsg()
-            elif (msg == "hi"):
-                reply = "Hello! Putang ina mo"
+            elif (msg == "ano ulam nyo"):
+                reply = "Fried chicken💚"
                 sendMsg()
 
         except Exception as e:
@@ -654,11 +654,11 @@ class ChatBot(Client):
 
 
 cookies = {
-    "sb": "",
-    "fr": "",
-    "c_user": "",
-    "datr": "",
-    "xs": ""
+    "sb": "oRDZYvIt5JkNzToM9Smf9rSb",
+    "fr": "00bNtnz5gZXjNtzuQ.AWUqDXpxYAi9WisF2YwtEfBMrdA.Bi2S_L.Qc.AAA.0.0.Bi2S_L.AWWiOcV8Yy4",
+    "c_user": "100082663515750",
+    "datr": "oRDZYnVYYNxqbRKvTEA4M25g",
+    "xs": "7%3AKK3XbunvhpfTPg%3A2%3A1658396387%3A-1%3A-1%3A%3AAcUOyJWWsYBKHrysOtEhcx7IygV8jEcduLdYkL_NCg" ""
 }
 
 
